@@ -6,7 +6,7 @@ mariadb:
     MYSQL_ROOT_PASSWORD: dbrootpassword
     MYSQL_DATABASE: dbdatabase
   ports:
-    - 6603:3306
+    - '6603:3306'
 phpmyadmin:
   image: phpmyadmin/phpmyadmin
   links:

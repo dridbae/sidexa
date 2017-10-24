@@ -26,14 +26,13 @@
 !bin/console
 !bin/symfony_requirements
 .idea/
-
+vendor/
 # Assets and user uploads
 /web/bundles/
 /web/uploads/
-
+.web-server-pid
 # PHPUnit
 /app/phpunit.xml
-/phpunit.xml
 
 # Build data
 /build/
